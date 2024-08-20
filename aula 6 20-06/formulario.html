@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
 </head>
 <body>
     <h1>Formulário de Cadastros</h1>
-    <form>
+    <!--abaixo tag= action para onde será enviado as informações e tag= method sobre qual é o tipo de formulário-->
+   
+   <style>
+    body{
+        background-color:cadetblue
+    }
+
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white        
+    }
+
+        #nome{
+            font-family:'Courier New', Courier, monospace ;
+
+        }
+   
+   </style>
+    <form action="/submit-form"  method="POST">
         <label for="nome">Nome</label>
         <input type="text" id="nome" required><br><br>
 
